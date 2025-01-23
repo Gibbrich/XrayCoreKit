@@ -16,4 +16,8 @@ public class XrayCoreWrapper {
     public func stop() {
         XrayCoreStop()
     }
+    
+    public func json(link: String) -> String {
+        return XrayCoreJson(link)
+    }
 }
